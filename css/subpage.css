@@ -1,0 +1,33 @@
+* {
+    font-family: Advent Pro, serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color:darkslateblue;
+  }
+
+  #oneProject{
+      width: 80%;
+      height:80%;
+      margin: 10%;
+  }
+
+  .buttons{
+      width: 20px;
+      height:20px;
+      background-color:red;
+      position:absolute;
+      top:50vh;
+  }
+
+  #previous{
+      left:10%;
+  }
+
+  #next{
+      right:10%;
+  }
