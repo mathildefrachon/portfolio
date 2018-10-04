@@ -7,7 +7,6 @@ console.log(index);
 
 
 function displayProject(currentArray) {
-
     console.log(currentArray[index].name);
     document.querySelector("h1").textContent = currentArray[index].name;
 }

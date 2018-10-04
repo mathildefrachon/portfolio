@@ -1,5 +1,7 @@
 "use strict";
 
+// ANIMATION BETWEEN ABOUT AND PROJECT PAGE 
+
 const screenWelcome = document.querySelector("#welcome_screen");
 const screenAbout = document.querySelector("#about_screen");
 const screenProject = document.querySelector("#project_screen");

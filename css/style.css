@@ -52,6 +52,7 @@ h3{
   position: absolute;
   top: 0;
   height: 100vh;
+  
   transition: all ease 1s forwards;
 }
 

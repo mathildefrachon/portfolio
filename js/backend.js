@@ -37,6 +37,8 @@ function showData(data) {
         projectsArray.push(project);
     });
 
+    // this was a try to force the filtered array being current array
+    //doesnt work because current array set to empty when reload
     if (currentArray.length === 0) {
         currentArray = projectsArray;
         console.log("this array is main array" + currentArray);
@@ -50,7 +52,7 @@ function showData(data) {
     displayArray(currentArray);
 }
 
-// SEE IF WE ARE ON THE SUBPAGE OR NOT
+// SEE IF WE ARE ON THE SUBPAGE OR NOT TO DISPLAY THE LIST OR THE PROJECT
 function displayArray(currentArray) {
 
     let urlParams = new URLSearchParams(window.location.search);

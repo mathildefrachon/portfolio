@@ -6,6 +6,7 @@ function initFrontend() {
     document
         .querySelectorAll(".cat_link")
         .forEach(element => element.addEventListener("click", clickedFilter));
+    // CLICK ON A PROJECT
     const gallery = document.querySelector("#gallery");
     gallery.addEventListener("click", clickedPost);
 }
