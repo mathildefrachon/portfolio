@@ -3,31 +3,62 @@
     box-sizing: border-box;
   }
   
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    background-color:darkslateblue;
-  }
+
 
   #oneProject{
-      width: 80%;
-      height:80%;
-      margin: 10%;
+      width: 100vw;
+      height:100vh;
+      background-color:#06443f;
+     
   }
+
+  #infos_container{
+    height: 100vh;
+    width: 33vw;
+    background-color: #052d29;
+    opacity:0.9;
+    z-index:100;
+    float:left;
+  }
+
+  #img_container{
+      height:100vh;
+      width:67vw;
+      background-color:pink;
+      float:right;
+  }
+
+  .images {
+      width: auto;
+      height: 70vh;
+      position:absolute;
+      top:calc(50% - 35vh);
+      left:50%;
+      outline: solid white 4px;
+      padding:1%;
+  }
+
+  #infos {
+      padding: 20% 15% 20% 15%;
+  }
+
+  
 
   .buttons{
       width: 20px;
       height:20px;
       background-color:red;
-      position:absolute;
-      top:50vh;
+      /* position:absolute; */
+      margin-top:calc(50vh - 10px);
+      
   }
 
-  #previous{
-      left:10%;
+   #previous{
+     margin-left:5%;
+     float:left;
   }
 
   #next{
-      right:10%;
-  }
+      margin-right:5%;
+      float:right;
+  } 

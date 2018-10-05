@@ -104,39 +104,7 @@ font-size:1.2em;
  }
 
 
- .aboutSlides{
-     width: 80vw;
-     height: 84vh;
-     display:inline-block;
-    
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-    margin-left: 5vw;
-    position: sticky;
-   
- }
-
- #about1{
-     background-color: red;
-    
-    
- }
-
- #about2{
-     background-color: yellow;
-     
- }
-
- #skill_container, #desc_container{
-    display: inline-block;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-    margin-left: 5vw;
-    width: 80vw;
-  height:84vh;
-    /* position: sticky; */
-   
- }
+ 
 
 
 

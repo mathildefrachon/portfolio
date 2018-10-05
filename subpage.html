@@ -7,26 +7,54 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>M A T H I L D E F R A C H O N</title>
     <link rel="stylesheet" href="css/subpage.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro:100,300,400,500,600,700">
     <link href="https://fonts.googleapis.com/css?family=Khand:300,400,500,600,700">
 </head>
 
 <body>
+    <div id="menu">
+        <nav id="top_nav">
+            <a href="#witch" id="a_projects">PROJECTS</a>
+            <a href="#" id="a_about">ABOUT</a>
+        </nav>
 
-    <div id="previous" class="buttons"></div>
+        <nav id="bottom_nav">
+            <a href="#" id="a_filters"></a>
+            <a href="#" id="a_contact">CONTACT</a>
+        </nav>
+    </div>
+
+
 
     <div id="oneProject">
 
-        <h1> TITLE </h1>
+        <div id="infos_container">
+            <!-- <img id="cross"> -->
+            <div id="infos">
+                <h1> TITLE </h1>
+                <h2>subtitle</h2>
+                <h2>type</h2>
+                <p>description</p>
+                <h3>keywords</h3>
+                <h3>related posts</h3>
+            </div>
 
-        <img class="image" src="" alt="project_img">
+        </div>
 
+        <div id="img_container">
 
-        <div class="descript">DESC GOES HERE</div>
-        <!--            <div class="small-descript">DESC GOES HERE</div>-->
+            <img class="images" src="" alt="project_img">
+            <a id="previous" class="buttons"> PREVIOUS </a>
+            <a id="next" class="buttons"> NEXT </a>
+
+        </div>
+
     </div>
 
-    <div id="next" class="buttons"></div>
+
+
+
 
 
     <script src="js/backend.js"></script>

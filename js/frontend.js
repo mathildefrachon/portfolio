@@ -43,7 +43,7 @@ function displayList(listOfProjects) {
         // clone.querySelector('#subpage_link').href = "subpage.html?index=" + index;
         // })
         // GIVE AN ID = to the index 
-        clone.querySelector(".imgVert").dataset.projectId = listOfProjects.indexOf(oneProject);
+        clone.querySelector(".imgVert").dataset.projectId = oneProject.id;
         // console.log(projectId);
         // APPEND THE CLONE TO THE LIST
         gallery.appendChild(clone);
